@@ -9,9 +9,9 @@ The users should be able to:
 
 ### Screenshots
 #### Desktop View
-![desktop](https://github.com/jkalasas/challenge2/tree/main/screenshots/desktop.png)
+![desktop](https://github.com/jkalasas/challenge2/blob/main/screenshots/desktop.png)
 #### Mobile View
-![mobile](https://github.com/jkalasas/challenge2/tree/main/screenshots/mobile.png)
+![mobile](https://github.com/jkalasas/challenge2/blob/main/screenshots/mobile.png)
 
 ### Links
 * Solution: [repo](https://github.com/jkalasas/challenge2)
