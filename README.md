@@ -15,7 +15,7 @@ The users should be able to:
 
 ### Links
 * Solution: [repo](https://github.com/jkalasas/challenge2)
-* Live Site: [repo](https://quirky-lovelace-d16ebd.netlify.app/)
+* Live Site: [Live Site](https://quirky-lovelace-d16ebd.netlify.app/)
 
 ### Remarks 
 This one felt pretty easy to do compared to the first challenge.
