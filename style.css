@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+}
+
+.container {
+	display: grid;
+	border-radius: 5px;
+}
+
+.item-1 {
+	background: hsl(31, 77%, 52%);
+}
+
+.item-2 {
+	background: hsl(184, 100%, 22%);
+}
+
+.item-3 {
+	background: hsl(179, 100%, 13%);
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: space-between;
+}
+
+.item-container img {
+	width: max-content;
+}
+
+.item-container p {
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.item-container h1 {
+  font-family: 'Big Shoulders Display', cursive;
+	color: hsl(0, 0%, 95%);
+	text-transform: uppercase;
+}
+
+.item button {
+	color: transparent;
+	background: white;
+}
+
+@media (max-width: 1440px) {
+	.container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		grid-template-columns: 250px 250px 250px;
+		grid-template-rows: 450px;
+	}
+
+	.item {
+		box-sizing: border-box;
+		padding: 30px;
+	}
+
+	.item-1 {
+		border-radius: 5px 0 0 5px;
+	}
+
+	.item-3 {
+		border-radius: 0 5px 5px 0;
+	}
+
+	.item button {
+		width: 120px;
+		height: 40px;
+		border-radius: 50px;
+		border: 2px solid white;
+		cursor: pointer;
+	}
+
+	.item-1 button {
+		color: hsl(31, 77%, 52%);
+	}
+	.item-2 button {
+		color: hsl(184, 100%, 22%);
+	}
+	.item-3 button {
+		color: hsl(179, 100%, 13%);
+	}
+
+	.item button:hover {
+		color: white;
+		background: none;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.container {
+		grid-template-rows: repeat(3, 350px);
+		grid-template-columns: 300px;
+	}
+
+	.item {
+		box-sizing: border-box;
+		padding: 40px;
+	}
+
+	.item-1 {
+		border-radius: 5px 5px 0 0;
+	}
+
+	.item-3 {
+		border-radius: 0 0 5px 5px;
+	}
+}
